@@ -1,0 +1,31 @@
+body,h1,h2,h3,h4,h5,h6{
+	font-family: Calibri;
+	font-weight: 100;
+}
+
+button{
+	background-color: #4c8efb;
+	color: #fff;
+	border:none;
+	border: 1px solid #3079ed;
+	padding:15px;
+	border-radius: 3px;
+	margin-right: 20px;
+}
+h1{
+	color: #555555;
+	text-align: center;
+	font-weight: 100;
+	font-size: 42px;
+}
+label{font-weight: bold;}
+.txt{
+	width: 95%;
+	padding: 8px 4px;
+
+}
+a{text-decoration: none;}
+.month{width: 48%; padding: 8px 4px;}
+.day{width: 15%; padding: 8px 4px;}
+.year{width: 30%; padding: 8px 4px;}
+.form{padding: 10px;}
