@@ -1,3 +1,4 @@
+*{padding: 0px; margin: 0px;}
 body,h1,h2,h3,h4,h5,h6{
 	font-family: Calibri;
 	font-weight: 100;
@@ -17,6 +18,8 @@ h1{
 	text-align: center;
 	font-weight: 100;
 	font-size: 42px;
+	margin-top:30px;
+	margin-bottom: 30px;
 }
 label{font-weight: bold;}
 .txt{
@@ -30,3 +33,4 @@ a{text-decoration: none;}
 .day{width: 15%; padding: 8px 4px;}
 .year{width: 30%; padding: 8px 4px;}
 .form{padding: 10px;}
+.header{padding: 15px 5px;}
