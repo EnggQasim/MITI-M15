@@ -20,7 +20,8 @@ h1{
 }
 label{font-weight: bold;}
 .txt{
-	width: 95%;
+	 box-sizing: border-box;
+	width: 100%;
 	padding: 8px 4px;
 
 }
