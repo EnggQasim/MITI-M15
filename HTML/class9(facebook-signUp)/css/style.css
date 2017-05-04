@@ -1,0 +1,36 @@
+*{padding: 0px;margin:0px;}
+body{
+	background-color: #e9ebee;
+	font-family: Calibri;
+
+}
+.navigation{
+	background-color: #3b5998;
+	color: #fff;
+	padding: 0px 10px !important;
+}
+.navigation a{
+	text-decoration: none;
+	color: #fff;
+}
+#pass1{
+	position: relative;
+	bottom: 10px;
+}
+.textbox{
+	padding: 5px;
+	font-size: 18px;
+	width: 90%;
+	border-radius: 5px;
+	margin:5px 5px;
+}
+.dob{
+	padding: 5px 0px;
+}
+#pheading{
+	color: #0e385f;
+	padding-top: 50px;
+}
+tr{
+	overflow: hidden;
+}
