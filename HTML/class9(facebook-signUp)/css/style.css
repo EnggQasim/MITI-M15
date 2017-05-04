@@ -34,3 +34,6 @@ body{
 tr{
 	overflow: hidden;
 }
+#logo{
+	font-size: 48px;
+}
