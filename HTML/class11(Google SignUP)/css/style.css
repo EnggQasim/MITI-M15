@@ -1,0 +1,45 @@
+body{
+	background-color: #f7f7f7;
+	font-family: Calibri;
+}
+.container{
+	background-color: #fff;
+	width: 450px;
+	box-shadow: 0px 0px 3px #999;
+	margin:auto;
+	box-sizing: border-box;
+	padding:30px 20px 160px 20px;
+	margin-top: 10%;
+}
+#user{
+	border:none;
+	border-bottom: 1px #e0e0e0 solid;
+	width: 100%;
+	padding:10px 0px;
+}
+.logo{
+	color: #272727;
+	font-weight: 200;
+}
+.description{
+	position: relative;
+	bottom: 25px;
+	color: #272737;
+}
+.col2{
+	padding-top: 40px;
+}
+.col2 a{
+	text-decoration: none;
+	color: #4285f4;
+}
+.footer{
+	position: relative;
+	top:190px;
+}
+.footer a{
+	text-decoration: none;
+	color: #757575;
+	display: inline-block;
+	padding:0px 10px;
+}
