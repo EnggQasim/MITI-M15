@@ -1,0 +1,60 @@
+.container{
+	max-width: 330px;
+	height: 200px;
+	margin:auto;
+	text-align: center;
+	font-family: Calibri;
+}
+.container h1{
+	font-weight: 100;
+	color: #382b30;
+}
+.container h1:first-letter{
+	font-size: 36px;
+}
+.text{
+	border:none;
+	border-bottom: 1px solid #999999;
+	width: 100%;
+	padding:5px 0px 5px 5px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.text:focus{
+	border:none;
+	border-color: #0b7db4;
+}
+.container a{
+	text-decoration: none;
+	color: #0b7db4;
+
+}
+#emailLink{
+	font-size: 18px;
+	display: block;
+	margin-top: 29px;
+}
+.container p{
+	font-weight: 100;
+	font-size: 13px;
+	margin:40px 0px 15px 0px;
+}
+.btn{
+	background-color: #0b7db4;
+	color: #fff;
+	border:none;
+	width: 100%;
+	padding:10px;
+	border:solid 2px #0b7db4;
+	border-radius: 30px;
+}
+.btn:hover{
+	border-color: #00aff0;
+	cursor: pointer;
+}
+.ftext{
+	font-size: 28px;
+}
+.ftext b{
+	color: #848484;
+}
