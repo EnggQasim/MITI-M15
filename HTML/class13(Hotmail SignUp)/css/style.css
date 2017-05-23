@@ -1,0 +1,14 @@
+.container{
+	margin-left: 40px !important;
+	font-family: Calibri;
+}
+.txt{
+	width: 100%;
+	border: solid 2px #999;
+	padding:5px 0px;
+	margin:13px 0px;
+}
+.borderNone{
+	border:none;
+}
+label{font-weight: bold;}
