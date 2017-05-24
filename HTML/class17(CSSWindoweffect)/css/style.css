@@ -1,0 +1,43 @@
+*{padding: 0px; margin: 0px;  font-family: arial;}
+.center{
+	position: 	absolute;	
+	top: 	50%;
+	left: 	50%;
+	transform:translate(-50%, -50%);
+}
+.book{width: 609px; position: 	relative;}
+.paper1, .paper2{
+	width: 	300px;
+	height: 400px;
+	position: 	absolute;
+	border:solid 3px #fff;	
+	transition: 1s;
+	background-image: url("../images/bg.jpg");
+}
+
+.book:hover .paper1{
+	transform: perspective(2000px)	rotateY(-85deg);
+}
+.book:hover .paper2{
+	transform: perspective(2000px) 	rotateY(85deg);
+}
+
+.paper1{
+	transform-origin: 	left;
+	transform:perspective(2000px) 	rotateY(0deg);
+}
+
+.paper2{
+	transform-origin: 	right;	
+	right: 	0px;
+	transform:perspective(2000px) 	rotateY(0deg);
+
+}
+.content{
+	background-color: #999;
+	color: #000;
+	padding: 40px;
+	box-sizing: border-box;
+	background-image: url("../images/old.jpg");
+	background-size: 100% 100%;
+}
