@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<style type="text/css">
+			/* The animation code */
+@keyframes example {
+    0%   {box-shadow:inset 0px 0px 25px #fff; transform:rotate(20deg);}
+    25%  {box-shadow:inset 0px 0px 25px #f00;transform:rotate(0deg);}
+    50%  {box-shadow:inset 0px 0px 25px #fff;transform:rotate(50deg);}
+    100% {box-shadow:inset 0px 0px 25px darkgreen;transform:rotate(-50deg);}
+}
+	*{padding: 	0px; margin:0px;}
+	body{
+		background-color: #333;
+	}
+		.abc{
+			background-color: #000;
+			color: #fff;
+			border:solid 3px #fff;
+			max-width: 500px;
+			margin: auto;
+			box-sizing: border-box;
+			position: absolute;	
+			padding: 50px;
+			top:50%;
+			left: 50%;
+			transform: 	translate(-50%, -50%);
+			border-radius: 	20px;
+			box-shadow:inset 0px 0px 25px #fff;
+			animation: 	example 5s infinite;
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="abc">
+Pakistan
+</div>
+</body>
+</html>

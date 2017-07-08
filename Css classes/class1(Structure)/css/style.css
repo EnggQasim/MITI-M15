@@ -1,0 +1,43 @@
+*{margin: 0px; padding: 0px;}
+.clear{clear: both;}
+.container{
+	max-width: 960px; 
+	min-width: 500px;
+	margin: auto;}
+.container, header, .menu, .login, .slider, article, footer{
+	border:solid 1px #000;
+	padding: 5px;
+	margin-bottom: 2px;
+}
+
+.left{float: left;}
+.right{float: right;}
+
+.slider{
+	height: 330px;
+}
+.slider h1{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+article{
+	width: 32.03%;
+}
+.abc{border:solid 3px red;
+	overflow: auto;
+}
+.abc::after {
+    content: "------";
+    clear: both;
+    display: table;
+}
+
+.xyz{
+	float: left;
+	border: 1px solid blue;
+	height: 100px;
+	
+}
