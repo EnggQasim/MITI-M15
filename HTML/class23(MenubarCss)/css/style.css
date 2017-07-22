@@ -1,0 +1,50 @@
+/* CSS Document */
+.clear{clear:both}
+*{padding:0px; margin:0px;}
+body{
+	background-color:#000;
+	}
+	
+header{
+	background-color:#333;
+	margin:20px auto;
+	max-width:960px;
+	}
+	
+header a{
+	color:#CCC;
+	text-decoration:none;
+}
+header nav ul li{
+	list-style:none;
+	display:inline-block;
+}
+header nav ul{
+	display:inline-block;
+}
+header nav ul li a{
+	color:red;
+	background-color:#039;
+	padding:10px 30px;
+}
+header nav ul li a:hover,
+#active{
+	background-color:#633;
+	color:#666;
+	transition:all 1s;
+}
+header nav{
+	float:left;
+	margin-left:20px;
+}
+header .logo{
+	float:left;
+}
+
+header .top_right{
+	float:right;
+}
+body img{width:100%;}
+
+
+
