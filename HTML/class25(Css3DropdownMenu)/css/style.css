@@ -1,0 +1,74 @@
+/* CSS Document */
+*{padding:0px; margin:0px;}
+header{background-color:#000; color:#fff;padding:5px 0px;}
+header nav{
+	background-color:#666;
+}
+header nav ul{
+	list-style:none;
+	text-align:center;
+}
+header nav ul li{
+	display:inline-block;
+}
+header nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	display:inline-block;
+	background-color:#090;
+	padding:10px 20px;
+	box-shadow:inset 0px 0px 10px #fff;
+	border-radius:5px;
+}
+header nav ul li a:hover,
+#active{
+ 	color:#090;
+	background-color:#fff;
+	transition:all 0.8s;
+	box-shadow:inset 0px 0px 10px #090;	
+}
+
+
+
+
+
+
+
+
+
+
+header label,
+header input[type="checkbox"]{
+	display:none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+	
+	header label{
+	display:block;
+	}	
+	header nav{
+		display:none;
+	}
+	header #menu:checked + nav{
+		display:block;
+	}
+	header nav ul li{
+	display:block;
+	width:100%;
+	margin-bottom:5px;
+}
+	header nav ul li a{
+		display:block;
+		border-bottom:dotted 1px #fff;
+	}
+}

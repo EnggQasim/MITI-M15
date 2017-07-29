@@ -1,0 +1,120 @@
+/* CSS Document */
+.clear{clear:both;}
+*{padding:0px;margin:0px;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+header{
+	background-color:#000;
+	box-shadow:0px 5px 5px #666;	
+}
+.container{
+	max-width:960px;
+	margin:auto;
+}
+header .container nav{
+	float:left;
+}
+header .top_right{
+	float:right;
+	padding:10px 0px;
+}
+header .container nav ul{
+	list-style:none;
+	padding:10px 0px;
+}
+header .container nav ul li{
+	display:inline-block;
+}
+header .container nav ul li a{
+	text-decoration:none;
+	display:inline-block;
+	padding:5px 7px;
+	background-color:#06C;
+	color:#fff;
+	border-radius:5px;
+	box-shadow:inset 0px 0px 10px #fff;
+}
+header .container nav ul li a:hover,
+#active{
+	background-color:#fff;
+	color:#06C;
+	box-shadow:inset 0px 0px 10px #06C;
+}
+.txt{
+	padding:5px 10px;
+	border-radius:5px;
+}
+aside{
+	float:left;
+	overflow:hidden;
+	width:160px;
+}
+aside ul{
+	list-style-position:inside;
+	list-style-image:url(../images/bullet.png);
+	background-color:#000;
+}
+aside ul li{
+	border-bottom:dotted 1px #fff;
+}
+aside ul li a{
+	display:inline-block;
+	text-decoration:none;
+	color:#fff;
+	padding:5px 20px;
+}
+aside ul li:hover{
+	padding-left:20px;
+	transition:all 1s;
+	cursor:pointer;
+}
+section{
+	float:right;
+	max-width:700px;
+	text-align:center;
+	color:#fff;
+}
+section article{
+	width:32.5%;
+	display:inline-block;
+	border:2px solid #06C;
+	box-sizing:border-box;
+	padding:5px;
+	margin-top:5px;
+	box-shadow:inset 0px 0px 5px #000;
+}
+section article h2{color:#06C;}
+section article img{
+	width:100%;
+}
+
+/*footer*/
+
+footer{
+	background-color:#000;
+	color:#fff;
+	margin-top:10px;
+	box-shadow:0px -5px 5px #999;
+}
+footer section{
+	width:25%;
+	border-right:2px solid #fff;
+	box-sizing:border-box;
+	float:left;
+	padding:10px;
+}
+footer section ul{
+	list-style-image:url(../images/bullet.png);
+	list-style-position:inside;
+	text-align:left;
+}
+footer section ul li a{
+	text-decoration:none;
+	color:#666;
+	display:inline-block;
+	margin-top:5px;
+	}
+footer section ul li a:hover{
+	color:#fff;
+}
+footer .lsc{
+	border:none;
+}

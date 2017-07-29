@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="sliderengine/jquery.js"></script><script type="text/javascript" src="sliderengine/jquery.hislider.js"></script>
+  
+  <style>
+  	html,body{height:100%; margin:0px;}	
+  </style> 
+  
+<style>
+*{padding:0px; margin:0px;}
+header{
+	background-color:#333;
+	box-shadow:0px 0px 10px #000;
+}
+header nav{
+	background-color:#030;
+	max-width:960px;
+	margin:auto;
+	padding:10px 0px;
+}
+header nav ul{
+	list-style:none;
+	text-align:center;
+}
+header nav ul li{
+	display:inline-block;
+}
+header nav ul li a{
+	text-decoration:none;
+	color:#999;
+	display:inline-block;
+	background-color:#063;
+	padding:10px 20px 10px 20px;
+	box-shadow:inset 0px 0px 20px #fff;
+	border-radius:10px;
+}
+header nav ul li a:hover, #active{
+	background-color:#09C;
+	color:#fff;
+	transition:all 0.5s;
+}
+</style>
+
+</head>
+
+<body>
+<header>
+ <nav>
+   <ul class="abc">
+     <li><a href="#">HOME</a></li>
+     <li><a href="#">ABOUT</a></li>
+     <li><a href="#" id="active">CONTACT</a></li>
+     <li><a href="#">GALLERY</a></li>
+     <li><a href="#">PORTFOLIO</a></li>
+     <li><a href="#">VIEWS</a></li>
+   </ul>
+ </nav>
+</header>
+
+<!----begin------Insert to your webpage where you want to display the slider-->
+        <div id='hislider1' style=" max-width:960px;  max-height:360px;height:100%; margin: 0 auto;">
+        	
+        	<noscript>The slider is powered by <strong>Hi Slider</strong>, a easy jQuery image slider from <a target="_blank" href="hislider.com">hislider.com</a>. Please enable JavaScript to view.</noscript><div class="hi-about-text" style="display:none">This jQuery slider was created with the free <a style="color:#FFF;" href="http://hislider.com" target="_blank">Hi Slider</a> for WordPress plugin,Joomla & Drupal Module from hislider.com.<br /><br /><a style="color:#FFF;" href="#" class="hi-about-ok">OK</a></div><div class="hi-slider-watermark"  style="display:none"><a href="http://hislider.com" target="_blank">hislider.com</a></div>
+        </div>
+      <!----end------Insert to your webpage where you want to display the slider-->
+</body>
+</html>
