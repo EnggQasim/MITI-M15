@@ -1,0 +1,15 @@
+/* CSS Document */
+.colorBox:hover{
+	left:0px;
+}
+.colorBox{
+	background-color:#03F;
+	display:inline-block;
+	border:3px red solid;
+	padding:10px 30px 10px 5px;
+	position:absolute;
+	left:-250px;
+	transition:all 1s;
+}
+
+#show img{width:200px;}
