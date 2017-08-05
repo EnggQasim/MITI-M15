@@ -1,0 +1,19 @@
+/* CSS Document */
+body{
+	background-color:rgba(255,0,0,0.5);	
+	background-size:100%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+form{
+	background-color:#000;
+	color:#fff;
+	border:solid 3px #999999;
+	padding:50px;
+	max-width:200px;
+	margin:auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
