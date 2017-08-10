@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">
+  <fieldset>
+    <legend>Student entery</legend>
+    <p>
+      <input name="txtName" type="text" id="txtName" placeholder="User Name">
+    </p>
+    <p>
+      <input name="txtFname" type="text" id="txtFname" placeholder="Fathe's Name">
+    </p>
+    <p>
+      <input name="txtcourse" type="text" id="txtcourse" placeholder="course">
+    </p>
+    <p>
+      <input type="button" name="button" id="button" value="Add" onClick="abc()">
+    </p>
+  </fieldset>
+</form>
+
+<style>
+.row{
+	display:block;
+	width:100%;
+
+}
+
+.td{
+	width:33.2%;
+	float:left;
+	background-color:#999;
+	box-sizing:border-box;
+	border:solid 1px #000;
+}
+
+.th{
+	font-size:18px;
+	background-color:#000;
+	color:#fff;
+	border:solid 1px #fff;
+	padding:20px;
+	
+}
+.btn{
+	background-color:#f00;
+	color:#fff;
+
+	position:relative;
+	bottom:40px;
+}
+#show{
+	margin-top:20px;
+	max-height:300px;
+	overflow:scroll;
+}
+</style>
+
+
+<script>
+
+var message = "";
+var counter = 1;
+
+function abc(){
+	//Get All values from text boxes
+	name = document.getElementById('txtName').value;
+	fname = document.getElementById('txtFname').value;
+	course = document.getElementById('txtcourse').value;
+	
+	message ='<div class="row" id="abc'+counter+'"><div class="td">'+name+'</div><!--end td--><div class="td">'+fname+'</div><!--end td--><div class="td">'+course+'</div><!--end td--> <button class="btn" onClick=\'delItem("abc'+counter+'")\'>abc'+counter+'X</button><!--btn--></div><!--row-->';
+	
+	counter++;
+	
+	document.getElementById('show').innerHTML += message;
+	
+	
+}
+
+
+
+
+function delItem(name){
+	alert(name);
+	document.getElementById(''+name+'').style.borderColor=red;
+}
+
+</script>
+
+
+<div id="show">
+<div class="row">
+ <div class="td th">Name</div><!--end td-->
+ <div class="td th">Father's Name</div><!--end td-->
+ <div class="td th">Course</div><!--end td-->
+ 
+
+</div><!--row-->
+</div>
+
+</body>
+</html>

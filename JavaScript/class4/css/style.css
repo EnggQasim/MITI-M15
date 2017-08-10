@@ -1,0 +1,16 @@
+/* CSS Document */
+
+fieldset{
+	width:300px;
+	background-color:#999;
+	text-align:center;
+	margin:auto;
+}
+legend{
+	color:#060;
+	font-size:36px;
+	text-outline:#C00;
+	text-shadow:5px 5px 5px #000000;
+	background-color:#333;
+}
+

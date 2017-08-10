@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="font-awesome-4.0.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<!--slider-->
+<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+</head>
+<body>
+<header>
+<nav class="navbar">
+<div class="container">
+<div class="navbar-header">
+<a href="#" class="navbar-brand"><i class="fa fa-facebook-square"></i></a>
+</div><!--end navbar-header-->
+<form class="search">
+<input type="search" name="q" /><button><i class="fa fa-search"></i></button>
+</form>
+<input type="checkbox" id="btn" />
+<label for="btn"><i class="fa fa-align-justify"></i></label>
+<ul class="nav">
+<li><a href=""><i class="fa fa-home"></i> Home</a></li>
+<li><a href="" id="active"><i class="fa fa-book"></i> About</a>
+<ul>
+<li><a href="#"><i class="fa fa-user-md"></i> Clients</a></li>
+<li><a href="#"><i class="fa fa-wrench"></i> Working</a></li>
+</ul>
+</li>
+<li><a href=""><i class="fa fa-suitcase"></i> PortFolio</a>
+<ul>
+<li><a href="#"><i class="fa fa-user-md"></i> Clients</a></li>
+<li><a href="#"><i class="fa fa-trophy"></i> Achievement</a></li>
+</ul>
+</li>
+</li>
+<li><a href=""><i class="fa fa-phone"></i> Contact</a></li>
+</ul>
+<ul class="nav-right">
+<li><a href="#"><i class="fa fa-user"></i> Sing Up</a>
+<ul>
+<li>
+<form>
+<input type="text" name="fname" placeholder="First Name" /><br />
+<input type="text" name="lname" placeholder="Last Name" /><br />
+<input type="date" name="dob" placeholder="Date of Birth" /><br />
+<input type="submit" value="Create" /><input type="reset" value="Cancel" />
+</form>
+</li>
+</ul>
+</li>
+<li><a href="#"><i class="fa fa-lock"></i> Sing IN</a>
+<ul>
+<li>
+<form>
+<input type="text" name="user" placeholder="User" /><br />
+<input type="password" name="pass" placeholder="******" /><br />
+<input type="submit" value="Login" /><input type="reset" value="Cancel" />
+</form>
+</li>
+</ul>
+</li>
+</ul>
+<br class="clear" />
+</nav>
+
+</div><!--end container-->
+</header>
+</body>
+</html>
+<style>
+style.css
+/* CSS Document */
+@keyframes blink{
+0%{opacity:0;}
+100%{opacity:1;}
+}
+@keyframes ht{
+0%{height:0px;}
+100%{height:auto;}
+}
+.container{max-width:960px;margin:auto; box-sizing:border-box;}
+.clear{clear:both;}
+*{padding:0px; margin:0px;}
+a{text-decoration:none;color:#fff;}
+a:hover,
+#active{background-color:rgba(0,0,0,.1); border-radius:3px;}
+ul{list-style:none;}
+ul li ul{display:none;}
+ul li:hover ul{
+display:block;
+position:absolute;
+background-color:#45619d;
+box-shadow:3px 3px 3px #000; 
+padding:20px;
+z-index:100;
+animation:blink 1s;
+}
+.nav-right li:hover ul{
+display:block;
+position:absolute;
+background-color:#45619d;
+box-shadow:3px 3px 3px #000;
+right:20px !important;
+padding:20px;
+animation: ht ..5s;
+}
+ul li ul li{display:block !important;}
+.navbar{
+background-color:#45619d;
+color:#fff;
+font-size:18px;
+padding:5px 0px;
+}
+input,button{padding:5px; border-radius:3px;}
+button{background-color:#fff;}
+.navbar-header{display:inline-block; float:left;font-size:32px;margin-right:3px;}
+.search{background-color:#fff;
+display:inline-block; border:1px solid #fff; border-radius:3px; float:left; margin-top:3px;}
+.search button,input{
+border:none;
+}
+.nav{
+display:inline-block;
+float:left;
+}
+.nav li{
+display:inline-block;
+}
+.nav-right{float:right;}
+.nav-right li{
+display:inline-block;
+}
+.nav a, .nav-right a{
+display:inline-block;
+padding:5px 8px 5px 8px;
+}
+.nav-right input[type="text"],
+.nav-right input[type="password"],
+.nav-right input[type="date"]{
+width:100%;
+margin:5px 0px;
+}
+.nav-right input[type="submit"],
+.nav-right input[type="reset"]{
+margin-right:3px;
+background-color:#fff;
+color:#45619d;
+}
+label[for=btn],#btn{display:none;}
+@media screen and (max-width: 790px){
+@keyframes ht{
+0%{opacity:0;}
+100%{opacity:1;} 
+}
+
+.nav{display:block; float:none; clear:both; width:100%;border-top:2px solid rgba(0,0,0,.5);}
+.nav li{display:block; width:100% !important;}
+a:hover,
+#active{background-color:rgba(0,0,0,.1); border-radius:3px; width:100%;} 
+label[for=btn]{display:inline-block; float:right; padding-right:20px; cursor:pointer;padding-top:7px;}
+.nav-right,
+.nav{display:none; transition:all .8s;}
+.navbar input[type=checkbox]#btn:checked~.nav,
+.navbar input[type=checkbox]#btn:checked~.nav-right{display:block; animation:ht .8s;}
+}
+</style>

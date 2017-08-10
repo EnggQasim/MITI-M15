@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+function abc(){
+	var sumall= document.getElementById('t1').value + document.getElementById('t2').value +document.getElementById('t3').value;
+	
+	document.getElementById('abc').innerHTML=sumall;
+}
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">
+  <label for="t1">Phy:</label>
+  <input type="text" name="t1" id="t1">
+  <label for="t2">Chem:</label>
+  <input type="text" name="t2" id="t2">
+  <label for="t3">Maths</label>
+  <input type="text" name="t3" id="t3">
+  <input type="button" name="button" id="button" value="Sum">
+</form>
+<p id="abc">asdf</p>
+</body>
+</html>
