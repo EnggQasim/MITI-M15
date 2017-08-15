@@ -16,4 +16,8 @@ form{
 	left:50%;
 	transform:translate(-50%,-50%);
 }
+span{
+	color:#060;
+	font-size:22px;
+}
 

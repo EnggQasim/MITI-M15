@@ -21,7 +21,7 @@ document.write("<br>"); // false
 
 // != equality
 x = 5;
-y = 5;
+y = 3;
 document.write(x != y);
 document.write("<br>"); // false
 // != equality
@@ -35,7 +35,7 @@ document.write("<br>"); // false
 x = 5;
 y = "5";
 document.write(x === y);
-document.write("<br>"); // false
+document.write(" I am checking values with datatypes	<br>"); // false
 // === equality with data type
 x = 5;
 y = "5";
@@ -51,9 +51,30 @@ document.write("<br>"); // true
 
 // and && grater than
 a=5;
-a++;
+a--;
 document.write(a)
+document.write("<br>");
 
+
+per = 55;
+grade ="";
+
+if(per >=0 && per < 40){
+	grade="Fail";	
+} else if( per >= 40  && per < 50){
+	grade="D";
+}else if(per >=50 && per < 60){
+	grade="C";
+}else if(per >=60  && per < 70){
+	grade="B";
+}else if(per >=70 && per < 80){
+	grade="A";
+}else if(per >=80 && per <= 100){
+	grade="A+";
+}
+
+
+document.write(grade);
 </script>
 </body>
 </html>
