@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<script>
+var abc = "My Country \"Pakistan\" 'zinda' bad zinda ";
+document.write(abc);
+document.write("<br>");
+
+// String Function in javascript
+
+//abc.length (Count total Characters in string)
+document.write(abc.length + "<br>");
+
+//abc.indexOf(value)
+document.write(abc.indexOf("zinda") + "<br>");
+//abc.indexOf(value, start)
+document.write(abc.indexOf("zinda", 25) + "<br>");
+//abc.lastIndexOf(searchValue, start)
+document.write(abc.lastIndexOf("zinda") + "<br>");
+
+/* Search String function */
+//abc.search(value)
+document.write(abc.search("zinda") + "<br>");
+
+
+/* Slice String function 
+abc.slice(start, [end])
+abc.substring(start, [end])
+abc.substr(start,[length])
+*/
+
+document.write(abc.slice(-6,-1) + "<br>");
+document.write(abc.substring(6,15) + "<br>");
+
+xyz ="Pakistan";
+document.write(xyz.slice(2,4) + "<br>");
+document.write(xyz.substring(2,4) + "<br>");
+document.write(xyz.substr(2,4) + "<br>");
+
+/* 
+abc.replace(rgExp, replaceText)
+*/
+
+document.write(abc.replace("zinda","Giway") + "<br>");
+document.write(abc + "<br>");
+
+/* toUpperCase , toLowerCase()*/
+document.write(abc.toLowerCase() + "<br>");
+document.write(abc.toUpperCase() + "<br>");
+
+
+/* concat() */
+
+document.write(abc + "----" + xyz +"<br>");
+
+/* charAt(position)
+charCodeAt(position) */
+document.write(abc.charAt(0) + "<br>");
+document.write(abc.charCodeAt(0) + "<br>");
+
+/* abc.split() */
+abc="aaa,bb, ccc,  d, fff, g";
+message = abc.split(",")
+document.write(message.length + "<br>");
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
