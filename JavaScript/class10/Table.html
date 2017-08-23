@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div align="center">
+
+<script>
+function genTable(rows,cols){
+document.write('<table border="1" cellpadding="0px" cellspacing="0px">');
+	for(row=1; row<=rows; row++){
+	document.write("<tr>");	
+		for(col=1; col<=cols; col++){
+			document.write("<td contenteditable='true'>r"+row+"c"+col+"</td>");
+		}
+	document.write("</tr>");
+	}
+document.write('</table>');	
+}
+
+genTable(5,3);
+genTable(20,25);
+
+</script>
+</table></div>
+</body>
+</html>

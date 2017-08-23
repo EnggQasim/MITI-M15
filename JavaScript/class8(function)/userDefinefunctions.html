@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+// User defin fucntion
+
+
+// Type: Defualt, none return function
+// fuction decleration
+function info(){ //1
+	document.write("<h1>MITI</h1>");// statment1
+	document.write("<p>Memon Industrial & Technical Insitute");//statment2
+}//1
+//1 function body
+
+function history(){
+	document.write("<h1>MITI History </h1>");
+	document.write("<p>Memon Industrial & Technical Insitute</p>");
+	return "Pakistan zinda bad";
+}
+
+// type : required Arguments
+
+function student(id, name){
+	document.write("<h1>Roll "+id+" Dear "+name+"</h1>");
+	document.write("<p>your are successfully enrolled in Memon Industrial & Technical Insitute</p>");
+}
+var totalVists=0;
+
+function visitor(id, name, phone="####-#####"){
+	document.write("<h1>Roll "+id+" Dear "+name+"</h1>");
+	document.write("<p>your are successfully enrolled in Memon Industrial & Technical Insitute your contact no is "+phone+"</p>");
+	totalVists++;
+}
+
+function checkEven(value){
+	if(value%2 == 0){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+
+function isPrime(value){
+	check=true;
+	for(i=2; i<value; i++){
+		if(value%i==0){
+			check=false;
+			break;
+		}
+	}
+	
+	return check;
+}
+
+</script>
+</head>
+
+<body>
+<script>
+info()
+history();
+
+student(1,"Hassan");
+student(5,"Qasim");
+
+//with option argument if enter then working with otherwise also run with required argument
+visitor(1,"ali");
+visitor(2,"junaid","0315-2968211");
+visitor(5,"Qasim");
+abc=checkEven(63);
+
+document.write(isPrime(11));
+document.write("Total Visit in Miti "+totalVists);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+var day=month=year="";
+function abc(){
+	document.getElementById('show').innerHTML='Your Date of birth is Day' +day+' month '+month+' year'+ year
+}
+
+</script>
+
+</head>
+
+<body>
+Days:
+<select onChange="day=this.value;abc();">
+<script>
+var i = 1;
+while(i <= 31){
+	document.write("<option>"+ i +"</option>");
+	i++;
+}
+</script>
+</select>
+
+
+
+Months:
+<select onChange="month=this.value;abc();">
+<script>
+var i = 1;
+while(i <= 12){
+	document.write("<option>"+ i +"</option>");
+	i++;
+}
+</script>
+</select>
+
+
+
+Years:
+<select onChange="year=this.value;abc();">
+<script>
+var i = 2017;
+while(i >= 1917){
+	document.write("<option>"+ i +"</option>");
+	i--;
+}
+</script>
+</select>
+
+<button onClick="abc()">Click Me</button>
+
+
+<p id="show">...</p>
+
+</body>
+</html>

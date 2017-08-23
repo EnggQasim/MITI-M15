@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p id="demo"></p>
+
+<script>
+var day;
+abc=prompt("Enter no");
+switch (abc) {
+    case 0:
+        day = "Pakistan";
+        break;
+    case 1:
+        day = "Idian";
+        break;
+    case 2:
+        day = "American";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case  6:
+        day = "Saturday";
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+</script>
+</body>
+</html>
