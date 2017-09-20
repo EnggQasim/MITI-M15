@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	// click H1 then hide it self	
+	$("h1,h2,button").click(function(){
+		$(this).hide();
+		$("#tg").show();
+	});
+	
+	//All HTML elements show
+	$("#tg").click(function(){
+		$("h1,h2,button").show();
+	});
+	
+	
+	
+	
+	
+});
+</script>
+
+</head>
+
+<body>
+<button id="sh">Show</button>
+<button id="hd">Hide</button>
+<button id="tg">Hide/Show</button>
+
+<h1>Pakistan zinda bad</h1>
+<h2>Sindh</h2>
+<h1>India</h1>
+<h2>Mumbai</h2>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#sh").click(function(){
+		$('h1').animate({
+			fontSize:"100px",
+			opacity: "0.2",
+			marginLeft:"50px"
+		},1000);
+	});
+	
+	$("#hd").click(function(){
+		$('h1').animate({
+			fontSize:"36px",
+			opacity: "1"
+		},1000);
+	});
+	
+});
+</script>
+</head>
+
+<body>
+<button id="sh">Show</button>
+<button id="hd">Hide</button>
+<button id="tg">Hide/Show</button>
+
+<h1>Pakistan zinda bad</h1>
+<h2>Sindh</h2>
+<h1>India</h1>
+<h2>Mumbai</h2>
+
+</body>
+</html>

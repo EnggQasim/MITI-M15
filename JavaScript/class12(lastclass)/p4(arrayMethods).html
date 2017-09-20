@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+names=["Qasim","Asif","Rashid"];
+document.write(names+"<br>");
+
+//add array item in last
+names.push("Abid");
+document.write(names+"<br>");
+
+//add array item in start
+names.unshift("Hamza");
+document.write(names+"<br>");
+
+deletName=[];
+
+//pop remove item from last
+x = names.pop()
+deletName.push(x);
+deletName.push(names.pop());
+document.write(deletName+"<br>");
+
+
+//shift remove item from start
+x = names.shift()
+deletName.push(x);
+document.write(deletName+"<br>");
+
+delete deletName[1]
+document.write(deletName+"<br>");
+
+</script>
+</body>
+</html>
