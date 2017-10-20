@@ -1,0 +1,15 @@
+1) download
+2) extract in htdocs folder
+3) rename (web1)
+4) http://localhost/phpmyadmin (create database with above web1 name)
+5) http://localhost/web1 --> configur your websit
+	database :	web1
+	user	:	root
+	pass	:	""
+	host	:	localhost
+6) create admin panel user
+	Sit title	: "MITI"
+	username	: admin		
+	password	: admin	
+7) Login panel (http://localhost/wp-admin)
+8) use all controls of the panel :)...
