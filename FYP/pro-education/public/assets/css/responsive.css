@@ -1,0 +1,86 @@
+
+@media (max-width: 1024px){
+.text7
+{
+	left:40px !important;
+
+	}
+.text-text{
+	left:40px !important;
+
+	}
+h3.ms-layer.full-width.text7.text-left.font-weight-bold.display-4.margin-top
+{
+	left:33px !important;
+}
+a.ms-layer.active.btn-radius1.btn.font-weight-bold.text-uppercase.mr-5.text-white
+{
+	left:33px !important;
+}
+a.ms-layer.btn.btn-radius2.btn.font-weight-bold.text-uppercase.mr-5 {
+    left: 190px !important;
+}
+}
+@media (max-width: 991px){
+.text-text
+{
+	left:123px !important;
+	top: 170px !important;
+}
+h3.ms-layer.full-width.text7.text-left.font-weight-bold.display-4.margin-top
+{
+	left:123px !important;
+}
+a.ms-layer.active.btn-radius1.btn.font-weight-bold.text-uppercase.mr-5.text-white
+{
+	left:123px !important;
+		top: 230px !important;
+}
+a.ms-layer.btn.btn-radius2.btn.font-weight-bold.text-uppercase.mr-5 {
+    left: 270px !important;
+		top: 230px !important;
+}
+
+
+
+
+.display-4 {
+    font-size: 2.1rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+.media img
+{
+	float:none;
+	width:100%;
+	max-width:100%;
+	margin-bottom:20px;
+}
+.media
+{
+	display:inherit;
+}
+
+.d-flex.mr-2 {
+    margin-bottom: 10px;
+}
+.single_counter.text-white {
+    margin-bottom: 30px;
+}
+.card
+{
+	margin-bottom:30px;
+}
+.copyright .text-left, .copyright .text-right
+{
+	text-align:center !important;
+}
+.bg-light-banner
+{	
+    margin-top: 30px;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+    margin-top: 30px;
+}
+}
